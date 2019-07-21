@@ -1,0 +1,37 @@
+{
+  "env": {
+    "commonjs": true,
+    "mocha": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+   "ecmaVersion": 6,
+   "sourceType": "module",
+   "ecmaFeatures": {}
+ },
+  "rules": {
+    "no-undef": "off",
+    "no-redeclare": "error",
+    "no-irregular-whitespace": "error",
+    "no-trailing-spaces": "error",
+    "no-useless-escape": "error",
+    "no-class-assign": "error",
+    "no-inner-declarations": "error",
+    "no-unreachable": "error",
+    "no-debugger": "off",
+    "no-console": "off",
+    "no-unused-vars":"off",
+    "prefer-const": "error",
+    "eol-last": "error",
+    "indent": [
+      "error",
+      2
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [2, "always"]
+  }
+}
