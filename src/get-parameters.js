@@ -14,7 +14,6 @@ const getParameters = async (parameterNames, region, apiVersion='2014-11-06') =>
   };
   try {
     const parameters = await ssm.getParameters(params).promise();
-    console.log('parameters', parameters);
     return formatParameters(parameters);
   } catch (e) {
     return e;

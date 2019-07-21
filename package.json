@@ -1,13 +1,14 @@
 {
   "name": "@mdh/aws-ssm-parameters",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node module to get a list of parameters from AWS Parameter Store",
   "main": "src/get-parameters.js",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=text mocha **/test/**/*.spec.js --recursive"
+    "test": "nyc --reporter=html --reporter=text mocha **/test/**/*.spec.js --recursive",
+    "test:watch": "nyc --reporter=html --reporter=text mocha **/test/**/*.spec.js --recursive --watch"
   },
-  "keywords": [],
-  "author": "",
+  "url": "https://github.com/mydatahack/aws-ssm-parameters",
+  "keywords": ["aws", "ssm", "parameter store", "get parameters"],
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.496.0"
