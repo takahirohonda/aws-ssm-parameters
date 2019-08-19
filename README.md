@@ -75,4 +75,6 @@ Instead of adding the actual database credentials or API keys in the environment
 
 Retrieval of parameters has computational costs. The parameter store also throttles requests when the volume is high. The best practice is to store the retrieved value globally and make sure the code only calls parameter store when it doesn't exist in the global scope (this is when the lambd execution container is on cold start) as well as retry logic when the credentials get roatated.
 
+## Source Code
 
+Soucre code can be found at a GitHub repo, [aws-ssm-parameters](https://github.com/mydatahack/aws-ssm-parameters).
