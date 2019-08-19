@@ -1,6 +1,6 @@
 {
   "name": "@mdhnpm/aws-ssm-parameters",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node module to get a list of parameters from AWS Parameter Store",
   "main": "src/get-parameters.js",
   "scripts": {
