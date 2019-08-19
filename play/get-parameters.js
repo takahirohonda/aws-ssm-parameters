@@ -17,5 +17,5 @@ const getParameters = (parameterNames, region, getParameterFunc=getParameter) =>
 };
 
 
-module.exports = { getParameters }
-;
+module.exports = { getParameters };
+
